@@ -9,14 +9,14 @@ A API de geração responde originalmente em inglês, mesmo que o prompt peça r
 '''
 
 
-api_key_gerador= "SEU_TOKEM_AQUI" # Aqui você coloca o teke que você gera nestes sites após crair sua conta
+api_key_gerador= "SEU_TOKEM_AQUI" # Aqui você coloca o teken que você gera nestes sites após crair sua conta
 url_api_texto = "https://api.cohere.ai/v1/generate"
 header = {
     "Authorization": f"Bearer {api_key_gerador}",
     "Content-Type": "application/json"
 }
 
-api_key_tradutor = "SEU_TOKEM_AQUI" # Aqui você coloca o teke que você gera nestes sites após crair sua conta
+api_key_tradutor = "SEU_TOKEM_AQUI" # Aqui você coloca o teken que você gera nestes sites após crair sua conta
 url_api_tradutor = "https://api-inference.huggingface.co/models/Helsinki-NLP/opus-mt-en-pt"
 headers = {"Authorization": f"Bearer {api_key_tradutor}"}
 
