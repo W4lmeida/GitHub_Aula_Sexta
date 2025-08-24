@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/estilo.css') }}">
+
+        <title>Gerador de texto</title>
+    </head>
+    <body>
+        <header>
+
+        </header>
+
+        <h1>Gerador automático de textos</h1>
+        <hr>
+        <p>Site gerado com o objetivo de produzir textos, utilizando como prompt frases</p>
+
+        <form action="/gerar" method="post">
+
+            <label for="entrada" id="entrada">Digite uma frase</label>
+            <input type="text" name="entrada" id="entrada">
+
+            <button type="submit">Gerar Texto</button>
+
+            <br>
+            <br>
+            <textarea readonly >
+                {{ resposta }}
+            </textarea>
+
+        </form>
+
+        <footer>
+
+        </footer>
+
+    </body>
+</html>

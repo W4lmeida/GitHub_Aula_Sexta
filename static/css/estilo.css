@@ -1,0 +1,35 @@
+/* Bloqueia o redimensionamento do textarea */
+textarea {
+    resize: none;
+    width: 19cm;   /* largura do campo */
+    height: 220px;  /* altura do campo */
+    font-size: 16px;
+    padding: 10px;
+}
+
+/*Estilo do Label*/
+label{
+    font-size: 16px;
+}
+
+
+/* Estilo do botão */
+button {
+    background-color: #001aff;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4CAF50;
+}
+
+/*Estilo do Input <Entrada de texto>*/
+input{
+    padding: 10px;
+    border-radius: 2%;
+    width: 12.9cm;
+}
